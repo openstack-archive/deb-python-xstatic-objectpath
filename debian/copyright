@@ -2,13 +2,13 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: XStatic-objectpath
 Source: https://github.com/mike-marcacci/objectpath
 
-Files: debian/*
-Copyright: (c) 2014, Thomas Goirand <zigo@debian.org>
-License: Apache-2
-
 Files: *
 Copyright: (c) 2014, Mike Marcacci <mike.marcacci@gmail.com>
            (c) 2016, Rob Cresswell <robert.cresswell@outlook.com>
+License: Expat
+
+Files: debian/*
+Copyright: (c) 2016, Thomas Goirand <zigo@debian.org>
 License: Expat
 
 License: Expat
