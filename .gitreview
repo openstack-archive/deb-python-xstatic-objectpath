@@ -1,4 +1,5 @@
 [gerrit]
 host=review.openstack.org
 port=29418
-project=openstack/xstatic-objectpath
+project=openstack/deb-python-xstatic-objectpath.git
+defaultbranch=debian/newton
