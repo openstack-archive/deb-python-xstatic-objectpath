@@ -8,7 +8,7 @@ UPSTREAM_GIT := https://github.com/robcresswell/xstatic-objectpath
 
 override_dh_auto_install:
 	pkgos-dh_auto_install
-	rm -rf /usr/lib/python*/dist-packages/*.pth
+	rm -rf $(CURDIR)/debian/python*-xstatic-objectpath/usr/lib/python*/dist-packages/*.pth
 
 override_dh_auto_test:
 ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
